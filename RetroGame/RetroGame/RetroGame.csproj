@@ -156,12 +156,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Background.jpg" />
     <Resource Include="Assets\Logo.ico" />
     <Resource Include="Assets\Logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\SpiderMan.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

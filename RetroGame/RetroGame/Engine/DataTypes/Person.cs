@@ -26,7 +26,7 @@ namespace RetroGame.Engine.DataTypes
 
         public bool AutoMove { get; set; }
 
-        public double Speed { get; set; } = 0.001;
+        public double Speed { get; set; } = 1;
 
         public int DefaultJumpHeight { get; set; } = 10;
         public (bool IsJumping, int Height, int ActualHeight) Jump { get; set; } = (false, 0, 0);

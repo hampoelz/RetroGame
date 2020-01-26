@@ -9,6 +9,7 @@ namespace RetroGame.Blocks.BlockTypes
     {
         public static bool Main(Game game, Block currentBlock)
         {
+            game.Person.IsEnabled = false;
             game.IsRunning = false;
 
             Task.Delay(1000);
